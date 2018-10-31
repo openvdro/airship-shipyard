@@ -19,4 +19,5 @@ limitations under the License.
 
 set -ex
 
+cp /home/shipyard/shipyard/shipyard_airflow/shipyard_celery_config.py /tmp/airflow/
 airflow initdb

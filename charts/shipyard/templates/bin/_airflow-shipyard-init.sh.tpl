@@ -21,3 +21,4 @@ set -ex
 
 cp -vaR /home/shipyard/shipyard/shipyard_airflow/dags/*.py /tmp/airflow/dags/
 cp -vaR /home/shipyard/shipyard/shipyard_airflow/plugins/*.py /tmp/airflow/plugins/
+cp /home/shipyard/shipyard/shipyard_airflow/shipyard_celery_config.py /tmp/airflow/
