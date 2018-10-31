@@ -566,7 +566,7 @@ conf:
       flower_url_prefix:
       flower_port: 5555
       default_queue: "default"
-      celery_config_options: airflow.config_templates.default_celery.DEFAULT_CELERY_CONFIG
+      celery_config_options: shipyard_airflow.shipyard_celery_config.CELERY_CONFIG
       # TODO: Enable this for security
       ssl_active: "False"
       ssl_key: ""
